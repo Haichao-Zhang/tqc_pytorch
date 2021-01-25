@@ -24,7 +24,7 @@ conda env create -f environment.yml
 conda activate tqc
 ```
 
-It essentially consists of ```gym==0.12.5, mujoco-py==1.50.1.68, pytorch=1.3.0, torchvision=0.2.1```.
+It essentially consists of ```gym==0.12.5, mujoco-py==1.50.1.68, pytorch==1.3.0, torchvision==0.2.1```.
 
 Environment contains ```mujoco-py``` library which [may require](https://github.com/openai/mujoco-py) to install additional libraries depending on OS.
 
